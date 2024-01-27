@@ -1,7 +1,7 @@
 @echo off
 Color 0A & Mode con cols=120 lines=100
 batbox /c 0X06 /d  
-git clone https://github.com/Darksquall1978/quenelle66.git 
+git clone https://github.com/Darksquall1978/quenelle6.git 
 batbox /c 0X02 /d 
 cd..
 cd..
@@ -17,7 +17,7 @@ RMDIR /s /q .git
 RMDIR /s /q FrostyModManager\Mods
 timeout /t 1 /nobreak > nul
 @echo  suppression de KyberBrowser
-RMDIR /s /q KyberBrowser
+RMDIR /s /q KyberBrowser\KyberBrowser.exe
 ::timeout /t 1 /nobreak > nul
 ::@echo  suppression du dossier patchers
 ::RMDIR /s /q bepinex\patchers
@@ -51,7 +51,7 @@ timeout /t 1 /nobreak > nul
 ::ok
 ::pause
 
-robocopy maj\cmd\quenelle6\KyberBrowser /mt /z /e
+xcopy maj\cmd\quenelle6\KyberBrowser\KyberBrowser.exe KyberBrowser.exe /y
 ::timeout /t 1 /nobreak > nul
 ::ok
 ::pause
