@@ -17,7 +17,7 @@ batbox /c 0X04 /d
 batbox /c 0X17 /d
 
 @echo off
-timeout /t 1 /nobreak > nul
+timeout /t 2 /nobreak > nul
 batbox /c 0X04 /d 
 @echo Demarrage de la reparation....
 batbox /c 0X17 /d
