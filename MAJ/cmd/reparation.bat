@@ -51,12 +51,12 @@ timeout /t 1 /nobreak > nul
 ::ok
 ::pause
 
-xcopy maj\cmd\quenelle6\KyberBrowser\KyberBrowser.exe KyberBrowser.exe /y
+xcopy maj\cmd\quenelle6\KyberBrowser\ KyberBrowser /y
 ::timeout /t 1 /nobreak > nul
 ::ok
 ::pause
 
-robocopy maj\cmd\quenelle6\FrostyModManager\Mods /mt /z /e
+robocopy maj\cmd\quenelle6\FrostyModManager\Mods FrostyModManager\Mods /mt /z /e
 ::timeout /t 1 /nobreak > nul
 ::ok
 ::pause
@@ -119,7 +119,7 @@ robocopy maj\cmd\quenelle6\FrostyModManager\Mods /mt /z /e
 ::ok
 ::pause
 
-::xcopy maj\cmd\quenelle6\Launcher.apm Launcher.apm /y
+xcopy maj\cmd\quenelle6\Launcher.apm Launcher.apm /y
 ::timeout /t 1 /nobreak > nul
 ::ok
 ::pause
